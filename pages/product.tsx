@@ -123,7 +123,7 @@ function ConsultationForm() {
 
       {output && (
         <section className="mt-8 bg-gray-50 dark:bg-gray-800 rounded-xl shadow-lg p-8">
-          <div className="markdown-content prose prose-blue dark:prose-invert max-w-none">
+          <div className="markdown-content max-w-none">
             <ReactMarkdown remarkPlugins={[remarkGfm, remarkBreaks]}>{output}</ReactMarkdown>
           </div>
         </section>
